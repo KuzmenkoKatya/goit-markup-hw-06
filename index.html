@@ -380,6 +380,16 @@
           </ul>
         </div>
       </section>
+      <section class="footer-center">
+        <h2 class="join-title">Подпишитесь на рассылку</h2>
+        <div class="subscription">
+            <form action="#"><div class="input-wrap">
+            <input type="email" class="form-input" name="e-mail" id="e-mail"/></div></form> 
+            <button type="submit" class="hero-button" data-modal-open>
+                <svg class="button-subscription" width="143" height="30">
+                <use href="./images/icons.svg#icon-close"></use></svg></button>
+        </div>
+    </section>
     </div>
 </footer>
 <div class="backdrop  is-hidden" data-modal>
@@ -394,13 +404,43 @@
         <div class="form-field">
             <label class="input-text" for="user-name">Имя</label>
             <div class="input-wrap">
-                <input type="text" class="form-input" name="user-name" id="user-name"> <svg class="input-icon" width="18" height="18">
+                <input type="text" class="form-input" name="user-name" id="user-name" required minlength="2"/> <svg class="input-icon" width="18" height="18">
                     <use href="./images/icons.svg#icon-person"></use>
                 </svg> 
             </div>
         </div>
-
-
+        <div class="form-field">
+            <label class="input-text" for="user-tel">Телефон</label>
+            <div class="input-wrap">
+                <input type="tel" class="form-input" name="user-tel" id="user-tel" required 
+                       pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\p{2}[\-]\d{2}"
+                       title="+380 (50) 555-55-55"/>
+                 <svg class="input-icon" width="18" height="18">
+                    <use href="./images/icons.svg#icon-phone"></use>
+                </svg> 
+            </div>
+        </div>
+        <div class="form-field">
+            <label class="input-text" for="user-email">Почта</label>
+            <div class="input-wrap">
+                <input type="email" class="form-input" name="user-tel" id="user-email" required/>
+                 <svg class="input-icon" width="18" height="18">
+                    <use href="./images/icons.svg#icon-email"></use>
+                </svg> 
+            </div>
+        </div>
+        <div class="form-field">
+            <label class="input-text" for="user-text">Комментарий</label>
+            <textarea name="user-text" id="user-text" class="form-text" placeholder="Введите текст"></textarea>
+        </div>
+        <div class="form-field">
+            <input type="checkbox" class="policy-check visually-hidden" name="policy" id="policy" />  
+            <label for="policy" class="check-text">
+                <span><svg class="input-icon" width="12" height="12">
+                    <use href="./images/icons.svg#icon-Vector-1"></use></svg></span>
+                    Соглашаюсь с рассылкой и принимаю <a href="" class="checkbox-contract"> Условия договора</a></label>
+        </div>
+        <button type="submit" class="hero-button" data-modal-open>Отправить</button>
         </form>
     </div>
 </div>
