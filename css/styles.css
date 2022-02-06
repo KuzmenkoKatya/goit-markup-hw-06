@@ -572,7 +572,8 @@ margin-top: 16px;}
   transition: transform var(--animation-timing); transform: scale(1);
   animation-name: spin; animation-duration: 2s;
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  animation-iteration-count: 1;}
+  animation-iteration-count: 1;
+  padding: 40px;}
 @keyframes spin {0% { transform: rotate(0deg) scale(0.1);}
                  50% { transform: rotate(180deg) scale(0.3);}
                  100% { transform: rotate(360deg) scale(1); }}
@@ -587,7 +588,7 @@ margin-top: 16px;}
 {opacity: 0; pointer-events: none; visibility: hidden;}
 /*.modal-close:hover .modal-close-icon {color: #2196f3;}*/
 /*.modal-close-icon:hover {color: #2196f3;}*/
-.modal.modal-close:hover .modal-close-icon {color: #2196f3;}
-.modal-close-icon {transition: color var(--animation-timing);}
+.modal.modal-close:hover .modal-close-icon {fill: #2196f3;}
+.modal-close-icon {transition: fill var(--animation-timing);}
 
  
