@@ -380,12 +380,13 @@
           </ul>
         </div>
       </section>
-      <section class="footer-center">
+      <section class="footer-right">
         <h2 class="join-title">Подпишитесь на рассылку</h2>
         <div class="subscription">
-            <form action="#"><div class="input-wrap">
-            <input type="email" class="form-input" name="e-mail" id="e-mail"/></div></form> 
-            <button type="submit" class="hero-button" data-modal-open>
+            <form action="#"><div class="input-wrap" >
+            <input type="email" class="form-input form-input-email" name="e-mail"
+             placeholder="E-mail" id="e-mail"/></div></form> 
+            <button type="submit" class="footer-button" data-modal-open>
                 <svg class="button-subscription" width="143" height="30">
                 <use href="./images/icons.svg#icon-Group"></use></svg></button>
         </div>
@@ -433,12 +434,13 @@
             <label class="input-text" for="user-text">Комментарий</label>
             <textarea name="user-text" id="user-text" class="form-text" placeholder="Введите текст"></textarea>
         </div>
-        <div class="form-field">
+        <div class="form-field form-field-checkbox">
             <input type="checkbox" class="policy-check visually-hidden" name="policy" id="policy" />  
             <label for="policy" class="check-text">
                 <span><svg class="input-icon" width="12" height="12">
                     <use href="./images/icons.svg#icon-Vector-1"></use></svg></span>
-                    Соглашаюсь с рассылкой и принимаю <a href="" class="checkbox-contract"> Условия договора</a></label>
+                    Соглашаюсь с рассылкой и принимаю <a                     
+                    href="" class="checkbox-contract"> Условия договора</a></label>
         </div>
         <button type="submit" class="hero-button" data-modal-open>Отправить</button>
         </form>
