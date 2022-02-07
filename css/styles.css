@@ -650,12 +650,14 @@ margin-top: 16px;}
             padding-right: 16px; resize: none;} 
 .form-text::placeholder {color: rgba(117, 117, 117, 0.5);}            
 .field {border: 1px solid tomato; border-radius: 5px;}
-.check-text span {width: 11px; height: 8px; border: 2px solid #ffffff; border-radius: 2px; 
-                  margin-right: 7px; display: flex; align-items: center; justify-content: center;}
+.check-text span {width: 16px; height: 15px; border: 2px solid #ffffff; border-radius: 2px; 
+                  margin-right: 7px; display: flex; align-items: center; justify-content: center; position: relative;}
 
 .policy-icon {fill: transparent;}
 .policy-check:checked + .check-text span {border: none; background-color: #2196f3;}
 .policy-check:checked + .check-text .policy-icon {fill: #ffffff;}
 .checkbox-contract {color: #2196f3;  }
-.form-field-checkbox {margin-left: 13px; display: flex; align-items: center;}
-.check-text {padding: 3px 0 0 7px;}
+.form-field-checkbox {margin-left: 13px; }
+.check-text {display: flex; align-items: center;}
+.visually-hidden{display: none;}
+.check-text .input-icon {left: 3px;}
