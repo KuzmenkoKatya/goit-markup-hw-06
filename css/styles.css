@@ -429,10 +429,6 @@ margin-top: 16px;}
     .subscription {display: flex; }
     .input-wrap {border-color: #2f303a; color: #2f303a;}
     .footer-button {
-      /*font-weight: 700;
-      font-size: 16px;
-      line-height: 0.53;
-      letter-spacing: 0.06em;*/
       color: var(--white-color);
       box-shadow: 4px rgba(0, 0, 0, 0.15); 
       background-color: #2196f3;  
@@ -443,10 +439,6 @@ margin-top: 16px;}
       padding: 10px 28.5px;
       transition: background-color, transform var(--animation-timing);}    
       .footer-button:hover {background-color:#188ce8;transform: scale(1.05);}
-
-
-
-
 /* Кнопки */
     .hero-button {
     font-weight: 700;
