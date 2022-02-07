@@ -611,12 +611,15 @@ margin-top: 16px;}
                  50% { transform: rotate(180deg) scale(0.3);}
                  100% { transform: rotate(360deg) scale(1); }}
 .modal-close 
-{position: absolute; display: flex;
+{position: absolute; display: flex; 
  width: 30px; height: 30px;
  border-radius: 50%; border: 1px solid rgba(0, 0, 0, 0.1);
  background-color: var(--sacondary-white-color);
  align-items: center; justify-content: center; 
  top: 8px; right: 8px;}
+ .modal-close use {fill: #000000;}
+ .modal-close:hover use {fill: #2196F3;}
+
  .is-hidden 
 {opacity: 0; pointer-events: none; visibility: hidden;}
 /*.modal-close:hover .modal-close-icon {color: #2196f3;}*/
