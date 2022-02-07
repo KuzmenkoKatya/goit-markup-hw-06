@@ -427,7 +427,7 @@ margin-top: 16px;}
     .futer-item .link {transition: color var(--animation-timing);}
     .footer-right {display: block; margin-left: 93px; }
     .subscription {display: flex; }
-    .input-wrap {border-color: #2f303a; margin-right: 12px; color: #2f303a;}
+    .input-wrap {border-color: #2f303a; color: #2f303a;}
     .footer-button {
       font-weight: 700;
       font-size: 16px;
@@ -656,5 +656,6 @@ margin-top: 16px;}
 .policy-icon {fill: transparent;}
 /*.policy-check:checked + .check-text span {border: none; background-color: #2196f3;}*/
 .policy-check:checked + .check-text .policy-icon {fill: #ffffff;}
-.checkbox-contract {color: #2196f3;}
+.checkbox-contract {color: #2196f3; display: flex; align-items: center; }
 .form-field-checkbox {margin-left: 13px;}
+.check-text {padding: 3px 0 0 0px;}
