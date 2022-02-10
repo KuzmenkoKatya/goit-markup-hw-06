@@ -653,5 +653,16 @@ margin-top: 16px;}
 .checkbox-contract {color: #2196f3; padding-left: 3px; }
 .form-field-checkbox {margin-left: 13px; margin: 0px;}
 .check-text {display: flex; align-items: center; }
-.visually-hidden{display: none;}
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;}
+/*.checkbox {position: absolute; appearance: none;}*/
 .check-text .input-icon {left: 3px;}
