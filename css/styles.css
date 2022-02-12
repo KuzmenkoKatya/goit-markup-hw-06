@@ -652,7 +652,7 @@ margin-top: 16px;}
 .policy-check:checked + .check-text .policy-icon {fill: #ffffff;}
 .checkbox-contract {color: #2196f3; padding-left: 3px; }
 .form-field-checkbox {margin-left: 13px; margin: 0px;}
-.check-text {display: flex; align-items: center; }
+.check-text {display: flex; align-items: center; justify-content: center;}
 .visually-hidden{
   position: absolute;
   width: 1px;
